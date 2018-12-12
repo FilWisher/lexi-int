@@ -1,6 +1,6 @@
 # lexi-int
 
-Lexicographical ordering for integers. Produces []byte and hex string encodings
+Lexicographical ordering for integers. Produces `[]byte` and hex `string` encodings
 of integers that have the same lexicographical ordering.
 
 From the implementation by
@@ -8,7 +8,7 @@ From the implementation by
 
 ## example
 
-```
+```go
 import (
     lexi "github.com/filwisher/lexi-int"
 )

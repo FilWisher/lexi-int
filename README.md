@@ -1,7 +1,7 @@
 # lexi-int
 
-Lexicographical ordering for integers. Produces `[]byte` and hex `string` encodings
-of integers that have the same lexicographical ordering.
+Lexicographical ordering for integers. Produces `[]byte` and hex `string`
+encodings of integers that maintain the same ordering before and after encoding.
 
 From the implementation by
 [substack](https://github.com/substack/lexicographic-integer).
